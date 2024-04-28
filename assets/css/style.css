@@ -950,7 +950,7 @@ h2.section-subheading.light span:before {
 
 @media only screen and (max-width: 640px) {
     .slick-slide {
-        height: 350px;
+        height: auto;
     }
 }
 
@@ -1403,6 +1403,25 @@ img {
     -ms-transition: all .4s ease-out;
     -o-transition: all .4s ease-out;
     transition: all .4s ease-out;
+}
+
+.text-garajes{
+    padding: 0;
+    font-size: 15px;
+}
+
+.div-img-garajes{
+    height: 600px;
+}
+
+.div-garajes{
+    height: auto;
+}
+
+@media only screen and (max-width: 640px) {
+    .text-garajes {
+        font-size: 20px;
+    }
 }
 
 .contact-info{
